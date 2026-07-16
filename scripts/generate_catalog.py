@@ -11,7 +11,6 @@ Usage: python3 scripts/generate_catalog.py
 import csv
 import json
 import re
-from datetime import date, timezone, datetime
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -94,14 +93,17 @@ def parse_readme(md: str):
 
 
 def main() -> None:
-    records = parse_readme(README.read_text(encoding="utf-8"))
+    markdown = README.read_text(encoding="utf-8")
+    records = parse_readme(markdown)
+    reviewed_match = re.search(r"\*\*Last reviewed:\*\*\s*(\d{4}-\d{2}-\d{2})", markdown)
+    last_verified = reviewed_match.group(1) if reviewed_match else None
     DATA_DIR.mkdir(exist_ok=True)
 
     catalog = {
         "title": "The Comprehensive List of AI Evaluation Tools",
         "source": "https://github.com/aglio-lab/ai-evaluation-tools",
         "license": "CC0-1.0",
-        "generated": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
+        "last_verified": last_verified,
         "entry_count": len(records),
         "tools": records,
     }
@@ -110,7 +112,7 @@ def main() -> None:
     )
 
     with (DATA_DIR / "tools.csv").open("w", newline="", encoding="utf-8") as f:
-        writer = csv.writer(f)
+        writer = csv.writer(f, lineterminator="\n")
         writer.writerow(
             ["name", "category", "availability", "status", "primary_url", "description"]
         )

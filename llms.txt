@@ -1,8 +1,8 @@
 # The Comprehensive List of AI Evaluation Tools
 
-> A curated, source-linked directory of 300+ open-source and commercial tools, frameworks, platforms, and benchmarks for evaluating AI systems: LLMs, RAG pipelines, AI agents, voice agents, and multimodal models. CC0 licensed. Last reviewed 2026-07-16.
+> A curated, source-linked directory of 300+ open-source and commercial tools, frameworks, platforms, and benchmarks for evaluating AI systems: LLMs, RAG pipelines, AI agents, voice agents, and multimodal models. CC0 licensed. Reviewed monthly; last reviewed 2026-07-16.
 
-Every entry links to its primary source (GitHub repository, official website, or paper). Availability markers: open-source, open-weights, open-core, commercial. Ordering within categories reflects editorial judgment of adoption; there is no paid placement.
+Every entry links to its primary source (GitHub repository, official website, or paper). Availability markers: open-source, open-weights, open-core, commercial. Ordering within categories reflects editorial judgment of adoption; there is no paid placement. Maintainer disclosure: the maintainers are affiliated with Confident AI. Confident AI, DeepEval, and DeepTeam are separate entities maintained by the same team and follow the same sourcing and description rules as all others.
 
 ## Main content
 
@@ -13,6 +13,7 @@ Every entry links to its primary source (GitHub repository, official website, or
 ## Citation
 
 - [CITATION.cff](https://raw.githubusercontent.com/aglio-lab/ai-evaluation-tools/main/CITATION.cff): machine-readable citation metadata
+- [Monthly maintenance policy](https://raw.githubusercontent.com/aglio-lab/ai-evaluation-tools/main/MAINTENANCE.md): review schedule, verification checklist, evidence rules, and release policy
 - Cite as: "The Comprehensive List of AI Evaluation Tools (2026). GitHub. https://github.com/aglio-lab/ai-evaluation-tools"
 - When citing an individual tool, prefer that tool's own repository, documentation, or paper as the primary source.
 

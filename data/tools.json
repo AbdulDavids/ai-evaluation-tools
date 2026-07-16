@@ -2,24 +2,16 @@
   "title": "The Comprehensive List of AI Evaluation Tools",
   "source": "https://github.com/aglio-lab/ai-evaluation-tools",
   "license": "CC0-1.0",
-  "generated": "2026-07-16",
+  "last_verified": "2026-07-16",
   "entry_count": 326,
   "tools": [
     {
       "name": "Confident AI",
       "category": "Full-Stack LLM Evaluation Platforms",
-      "availability": "open-core",
+      "availability": "commercial",
       "primary_url": "https://www.confident-ai.com",
-      "description": "Confident AI is a full-stack LLM evaluation platform built by the creators of DeepEval. It provides dataset curation and versioning, regression-tested experiments, 40+ research-backed metrics (G-Eval, RAG, agentic, conversational), metric alignment with human feedback, LLM tracing with online evaluations in production, and red teaming via DeepTeam. Docs",
+      "description": "Confident AI is the AI quality platform built for enterprise platform teams to standardize evals and observability across the org — one consistent bar for how different product teams measure and monitor their AI. Docs",
       "secondary_links": [
-        {
-          "label": "DeepEval",
-          "url": "https://github.com/confident-ai/deepeval"
-        },
-        {
-          "label": "DeepTeam",
-          "url": "https://github.com/confident-ai/deepteam"
-        },
         {
           "label": "Docs",
           "url": "https://documentation.confident-ai.com"
@@ -262,13 +254,8 @@
       "category": "LLM Evaluation Frameworks",
       "availability": "open-source",
       "primary_url": "https://github.com/confident-ai/deepeval",
-      "description": "DeepEval is an open-source LLM evaluation framework (\"Pytest for LLMs\") with 40+ research-backed metrics (G-Eval, DAG, RAG, agentic, conversational, safety) that run locally, CI/CD integration, benchmark support (MMLU, HumanEval, and more), and native integration with Confident AI.",
-      "secondary_links": [
-        {
-          "label": "Confident AI",
-          "url": "https://www.confident-ai.com"
-        }
-      ],
+      "description": "DeepEval is an open-source LLM evaluation framework (\"Pytest for LLMs\") with 50+ metrics for RAG, agents, multi-turn conversations, safety, and custom criteria, plus CI/CD and benchmark support.",
+      "secondary_links": [],
       "status": "active"
     },
     {
@@ -1108,7 +1095,7 @@
       "category": "LLM Red Teaming and Security Testing",
       "availability": "open-source",
       "primary_url": "https://github.com/confident-ai/deepteam",
-      "description": "DeepTeam is an LLM red-teaming framework from the DeepEval team, with 40+ vulnerabilities (bias, PII leakage, misinformation), 10+ attack methods (jailbreaking, prompt injection), and OWASP Top 10 for LLMs coverage.",
+      "description": "DeepTeam is an open-source LLM red-teaming framework covering 120+ vulnerabilities and 20+ attack methods, with mappings to the OWASP Top 10, NIST AI RMF, and MITRE ATLAS.",
       "secondary_links": [],
       "status": "active"
     },
@@ -2434,7 +2421,7 @@
       "category": "Long-Context and Memory Evaluation",
       "availability": "open-source",
       "primary_url": "https://github.com/NVIDIA/RULER",
-      "description": "RULER, from NVIDIA, is a synthetic benchmark that reveals a model's effective context length versus its claimed length.",
+      "description": "RULER, from NVIDIA, is a synthetic benchmark that reveals a model's _effective_ context length versus its claimed length.",
       "secondary_links": [],
       "status": "active"
     },
