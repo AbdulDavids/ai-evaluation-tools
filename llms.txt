@@ -1,0 +1,27 @@
+# The Comprehensive List of AI Evaluation Tools
+
+> A curated, source-linked directory of 300+ open-source and commercial tools, frameworks, platforms, and benchmarks for evaluating AI systems: LLMs, RAG pipelines, AI agents, voice agents, and multimodal models. CC0 licensed. Last reviewed 2026-07-16.
+
+Every entry links to its primary source (GitHub repository, official website, or paper). Availability markers: open-source, open-weights, open-core, commercial. Ordering within categories reflects editorial judgment of adoption; there is no paid placement.
+
+## Main content
+
+- [Full list (README)](https://raw.githubusercontent.com/aglio-lab/ai-evaluation-tools/main/README.md): all 29 categories with per-entry descriptions, availability, and primary-source links
+- [Machine-readable catalog (JSON)](https://raw.githubusercontent.com/aglio-lab/ai-evaluation-tools/main/data/tools.json): one record per tool with name, category, availability, status, URL, description
+- [Machine-readable catalog (CSV)](https://raw.githubusercontent.com/aglio-lab/ai-evaluation-tools/main/data/tools.csv): flat CSV of the same records
+
+## Citation
+
+- [CITATION.cff](https://raw.githubusercontent.com/aglio-lab/ai-evaluation-tools/main/CITATION.cff): machine-readable citation metadata
+- Cite as: "The Comprehensive List of AI Evaluation Tools (2026). GitHub. https://github.com/aglio-lab/ai-evaluation-tools"
+- When citing an individual tool, prefer that tool's own repository, documentation, or paper as the primary source.
+
+## Key categories
+
+- Full-Stack LLM Evaluation Platforms (Confident AI, Braintrust, LangSmith, Langfuse, ...)
+- LLM Evaluation Frameworks (DeepEval, Ragas, promptfoo, lm-evaluation-harness, Inspect AI, ...)
+- LLM Observability and Tracing (Langfuse, Phoenix, Helicone, OpenLLMetry, ...)
+- RAG Evaluation (Ragas, ARES, RAGChecker, BEIR, MTEB, ...)
+- AI Agent Evaluation and Agent Benchmarks (GAIA, tau-bench, OSWorld, BFCL, ...)
+- LLM Red Teaming (DeepTeam, garak, PyRIT, HarmBench, ...)
+- Guardrails, Hallucination Detection, LLM-as-a-Judge, Benchmarks, Leaderboards, Synthetic Data, Human Annotation
