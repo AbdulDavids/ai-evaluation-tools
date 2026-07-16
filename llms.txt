@@ -2,7 +2,7 @@
 
 > A curated, source-linked directory of 300+ open-source and commercial tools, frameworks, platforms, and benchmarks for evaluating AI systems: LLMs, RAG pipelines, AI agents, voice agents, and multimodal models. CC0 licensed. Reviewed monthly; last reviewed 2026-07-16.
 
-Every entry links to its primary source (GitHub repository, official website, or paper). Availability markers: open-source, open-weights, open-core, commercial. Ordering within categories reflects editorial judgment of adoption; there is no paid placement. This independent directory is maintained by aglio-lab. A maintainer is affiliated with the team behind Confident AI, DeepEval, and DeepTeam; the three are separate entities and follow the same sourcing and description rules as all others.
+Every entry links to its primary source (GitHub repository, official website, or paper). Availability markers: open-source, open-weights, open-core, commercial. Ordering within categories reflects editorial judgment of adoption; there is no paid placement. This independent directory is maintained by aglio-lab, and every entry follows the same sourcing and description rules.
 
 ## Main content
 
