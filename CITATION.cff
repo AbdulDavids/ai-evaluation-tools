@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use or reference this list, please cite it as below."
+title: "The Comprehensive List of AI Evaluation Tools"
+abstract: "A comprehensive, curated list of open-source and commercial tools, frameworks, platforms, and benchmarks for evaluating AI systems — LLMs, RAG pipelines, agents, voice assistants, and multimodal models."
+type: dataset
+repository-code: "https://github.com/aglio-lab/ai-evaluation-tools"
+url: "https://github.com/aglio-lab/ai-evaluation-tools"
+license: CC0-1.0
+keywords:
+  - ai-evaluation
+  - llm-evaluation
+  - evals
+  - benchmarks
+  - llm-observability
+  - red-teaming
+  - rag-evaluation
+  - agent-evaluation
+authors:
+  - name: "ai-evaluation-tools contributors"
