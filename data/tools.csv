@@ -215,6 +215,7 @@ AgentHarm,Agent Benchmarks,open-source,active,https://huggingface.co/datasets/ai
 MLE-bench,Agent Benchmarks,open-source,active,https://github.com/openai/mle-bench,"MLE-bench, from OpenAI, benchmarks agents on Kaggle-style machine-learning engineering tasks."
 PaperBench,Agent Benchmarks,open-source,active,https://github.com/openai/preparedness,"PaperBench, from OpenAI, evaluates agents on replicating state-of-the-art AI research papers."
 MiniWoB++,Agent Benchmarks,open-source,active,https://github.com/Farama-Foundation/miniwob-plusplus,MiniWoB++ contains 100+ small web-interaction tasks and remains the classic web-agent testbed.
+ClawBench,Agent Benchmarks,open-source,active,https://github.com/TIGER-AI-Lab/ClawBench,"ClawBench is an open-source benchmark framework for end-to-end browser-agent tasks on live websites, with isolated runs and replayable five-layer traces. Paper"
 AILuminate,Safety and Alignment Benchmarks,open-source,active,https://mlcommons.org/ailuminate/,"AILuminate, from MLCommons, grades systems across 12 hazard categories and is developed by an industry consortium."
 HarmBench,Safety and Alignment Benchmarks,open-source,active,https://github.com/centerforaisafety/HarmBench,HarmBench provides standardized red-teaming and refusal-robustness evaluation.
 DecodingTrust,Safety and Alignment Benchmarks,open-source,active,https://github.com/AI-secure/DecodingTrust,"DecodingTrust is a comprehensive trustworthiness assessment covering toxicity, stereotype bias, robustness, privacy, ethics, and fairness (NeurIPS 2023 Outstanding Paper)."
