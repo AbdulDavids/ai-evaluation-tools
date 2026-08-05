@@ -402,6 +402,7 @@ Fixed benchmark suites for **AI agents**: web navigation, computer use, tool cal
 | [MLE-bench](https://github.com/openai/mle-bench)                           | 🟢 Open source | MLE-bench, from OpenAI, benchmarks agents on Kaggle-style machine-learning engineering tasks.                                                                                         |
 | [PaperBench](https://github.com/openai/preparedness)                       | 🟢 Open source | PaperBench, from OpenAI, evaluates agents on replicating state-of-the-art AI research papers.                                                                                         |
 | [MiniWoB++](https://github.com/Farama-Foundation/miniwob-plusplus)         | 🟢 Open source | MiniWoB++ contains 100+ small web-interaction tasks and remains the classic web-agent testbed.                                                                                        |
+| [ClawBench](https://github.com/TIGER-AI-Lab/ClawBench)                     | 🟢 Open source | ClawBench is an open-source benchmark framework for end-to-end browser-agent tasks on live websites, with isolated runs and replayable five-layer traces. [Paper](https://arxiv.org/abs/2604.08523) |
 
 ## Safety and Alignment Benchmarks
 
