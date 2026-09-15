@@ -793,11 +793,11 @@
       "status": "active"
     },
     {
-      "name": "Gram",
+      "name": "Speakeasy AI Control Plane",
       "category": "LLM Observability and Tracing",
-      "availability": "open-source",
-      "primary_url": "https://github.com/speakeasy-api/gram",
-      "description": "Gram is an open-source control plane for agents and MCPs that records tool, permission-change, and access events.",
+      "availability": "commercial",
+      "primary_url": "https://www.speakeasy.com/product/ai-control-plane",
+      "description": "Speakeasy AI Control Plane centrally governs agent and MCP access with role-scoped permissions and auditable records for tool calls.",
       "secondary_links": [],
       "status": "active"
     },
